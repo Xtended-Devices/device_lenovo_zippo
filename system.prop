@@ -19,6 +19,9 @@ persist.data.iwlan.enable=true
 persist.data.iwlan=1
 persist.data.iwlan.ipsec.ap=1
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 ro.eyecare.brightness.threshold=11
 ro.eyecare.brightness.level=5
