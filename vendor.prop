@@ -131,3 +131,6 @@ persist.radio.multisim.config=dsds
 persist.vendor.radio.rat_on=combine
 persist.vendor.audio.endcall.delay=600
 persist.vendor.radio.enableadvancedscan=true
+
+# Target specific Netflix custom property
+ro.netflix.bsp_rev=Q855-16947-1
