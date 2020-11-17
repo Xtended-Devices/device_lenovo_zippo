@@ -15,6 +15,9 @@ XTENDED_BUILD_TYPE := OFFICIAL
 # FOD animations
 EXTRA_FOD_ANIMATIONS := true
 
+# Inherit Pixel apn
+$(call inherit-product, vendor/xtended/telephony/telephony.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := zippo
