@@ -9,6 +9,8 @@ $(call inherit-product, device/lenovo/zippo/device.mk)
 # Inherit some common Xtended stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+XTENDED_MAINTAINER := EinarGednochsson
+XTENDED_BUILD_TYPE := OFFICIAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
