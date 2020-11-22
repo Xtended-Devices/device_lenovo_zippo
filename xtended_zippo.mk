@@ -12,6 +12,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 XTENDED_MAINTAINER := EinarGednochsson
 XTENDED_BUILD_TYPE := OFFICIAL
 
+# FOD animations
+EXTRA_FOD_ANIMATIONS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := zippo
