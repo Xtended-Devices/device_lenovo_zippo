@@ -22,7 +22,8 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
-    android.hardware.sensors@2.0-ScopedWakelock.vendor
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
