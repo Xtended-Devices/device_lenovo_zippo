@@ -6,15 +6,16 @@
 
 $(call inherit-product, device/lenovo/zippo/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Fluid stuff
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+IS_PHONE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := zippo
 PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo L78051
-PRODUCT_NAME := lineage_zippo
+PRODUCT_NAME := fluid_zippo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
