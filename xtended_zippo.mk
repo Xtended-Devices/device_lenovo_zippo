@@ -20,10 +20,10 @@ PRODUCT_MANUFACTURER := Lenovo
 PRODUCT_MODEL := Lenovo L78051
 PRODUCT_NAME := xtended_zippo
 
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210905.001/7511028:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SP1A.211105.003/7757856:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210905.001 7511028 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 12 SP1A.211105.003 7757856 release-keys" \
     PRODUCT_NAME="zippo" \
     TARGET_DEVICE="zippo"
 
