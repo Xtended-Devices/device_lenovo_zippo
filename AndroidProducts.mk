@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_zippo.mk
+    $(LOCAL_DIR)/derp_zippo.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_zippo-user \
-    fluid_zippo-userdebug \
-    fluid_zippo-eng
+    derp_zippo-user \
+    derp_zippo-userdebug \
+    derp_zippo-eng
